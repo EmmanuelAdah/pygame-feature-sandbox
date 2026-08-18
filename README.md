@@ -8,21 +8,13 @@ Rather than a single massive game, this repository serves as a practical sandbox
 
 Here is a breakdown of the games included and the specific technical features they highlight:
 
-*   **1. Space Shooter (`/shooter`)**
-    *   **Focus:** Sprite groups, collision detection, and object pooling.
-    *   **Features Applied:** Managing multiple on-screen entities (lasers, enemies), pixel-perfect collisions, and continuous background scrolling.
+*   **1. Survival Pong (/survival-pong)**
+    *   **Focus:** Basic physics, continuous movement, and collision mechanics.
+    *   **Features Applied:** pygame.Rect object collisions (paddle vs. ball), bounding box constraints (keeping the ball on screen), velocity math/bouncing angles, and text rendering for a live score.
 
-*   **2. Platformer Jump (`/platformer`)**
-    *   **Focus:** Physics and tile-based rendering.
-    *   **Features Applied:** Simulating gravity, jumping mechanics, camera tracking, and parsing external level maps.
-
-*   **3. Memory Puzzle (`/puzzle`)**
-    *   **Focus:** Event handling, UI, and state management.
-    *   **Features Applied:** Mouse click events, state machines (menu -> playing -> game over), and text rendering.
-
-*   **4. Classic Snake (`/snake`)**
-    *   **Focus:** Grid-based movement and time management.
-    *   **Features Applied:** Custom clock ticks, array manipulation, and dynamic framerate control.
+*   **2. Tic Tac Toe (/tic-tac-toe)**
+    *   **Focus:** Grid logic, event handling, and state management.
+    *   **Features Applied:** Mouse click detection, mapping screen coordinates to a 2D array, drawing primitive shapes (lines, circles, crosses), and managing game loop states (turn-taking, win/draw conditions).
 
 ## 🛠️ Tech Stack
 
