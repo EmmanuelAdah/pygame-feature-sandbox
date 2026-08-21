@@ -16,6 +16,10 @@ Here is a breakdown of the games included and the specific technical features th
     *   **Focus:** Grid logic, event handling, and state management.
     *   **Features Applied:** Mouse click detection, mapping screen coordinates to a 2D array, drawing primitive shapes (lines, circles, crosses), and managing game loop states (turn-taking, win/draw conditions).
 
+*   **3. Rock Paper Scissor (/rock-paper-scissor)**
+    *  **Focus:** Classic Rock-Paper-Scissors gameplay with correct win/lose/draw, Best-of-N match modes, full sound design.
+    *  **Features Applied:** A polished, animated Rock-Paper-Scissors arcade game built with **Python** & **Pygame** — dramatic computer "thinking" animation, synthesized sound effects and music, particle effects, a full menu system, and best-of-N match play against the computer.
+
 ## 🛠️ Tech Stack
 
 *   **Language:** Python 3.x
